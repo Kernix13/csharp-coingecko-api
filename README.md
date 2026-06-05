@@ -15,6 +15,8 @@ A simple C# project using the coingecko API, enums, HttpClient, DateTime, JsonSe
 - [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download)
 - [Visual Studio Code](https://code.visualstudio.com/) with [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 
+<span aria-hidden="true"><br></span>
+
 ## Installation & Usage
 
 1. Clone this repository and switch into project folder
@@ -167,43 +169,9 @@ Coin ID: bitcoin, Name: Bitcoin, Last Updated: June 05, 2026 12:46 PM
 
 - Enum.TryParse if I use ReadLine for currency
 
-<!-- ```json
-[
-  {
-    "id": "bitcoin",
-    "symbol": "btc",
-    "name": "Bitcoin",
-    "image": "<https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1696501400>",
-    "current_price": 70187,
-    "market_cap": 1381651251183,
-    "market_cap_rank": 1,
-    "fully_diluted_valuation": 1474623675796,
-    "total_volume": 20154184933,
-    "high_24h": 70215,
-    "low_24h": 68060,
-    "price_change_24h": 2126.88,
-    "price_change_percentage_24h": 3.12502,
-    "market_cap_change_24h": 44287678051,
-    "market_cap_change_percentage_24h": 3.31157,
-    "circulating_supply": 19675987,
-    "total_supply": 21000000,
-    "max_supply": 21000000,
-    "ath": 73738,
-    "ath_change_percentage": -4.77063,
-    "ath_date": "2024-03-14T07:10:36.635Z",
-    "atl": 67.81,
-    "atl_change_percentage": 103455.83335,
-    "atl_date": "2013-07-06T00:00:00.000Z",
-    "roi": null,
-    "last_updated": "2024-04-07T16:49:31.736Z",
-    "market_cap_rank_with_rehypothecated": 1
-  }
-]
-``` -->
-
 <span aria-hidden="true"><br></span>
 
-## Important week 2 code and notes (IMO)
+## Important week 2 code and notes
 
 ### 1. Get started with dates, times, and time zones
 
